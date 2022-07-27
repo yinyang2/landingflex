@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+}
+
+.Header {
+    display:flex;
+    background-color: aqua;
+}
+
+.awsome {
+    display: flex;
+    background-color: blueviolet;
+}
+
+.random {
+    display: flex;
+    background-color: chocolate;
+}
+
+.quote {
+    display: flex;
+    background-color: darkgreen;
+}
+
+.sign {
+    display: flex;
+    background-color: dimgrey;
+}
+
+.footer {
+    display: flex;
+    background-color: blue;
+}
