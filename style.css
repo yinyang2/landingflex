@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    height: 100vh;
 
 }
 .headerlogo {
@@ -10,7 +11,7 @@ body {
 .Header {
     display:flex;
     background-color: #1f2937;
-    padding-left: 20px;
+    padding:0px 50px;
     color: azure;
     
 }
@@ -34,65 +35,129 @@ h1 {
 }
 button {
     background-color:#3882f6;
+    margin-right: auto;
+    padding:10px 30px;
+    color: #F9faf8;
+    border-radius:
+    border-color: #3882f6;
+    margin-top: 15px;
+    outline: auto;
+    outline-style: round;
 }
-
 .awsome {
     display: flex;
     background-color: #1f2937;
-    padding:15px 40px;
+    gap:25px;
+    justify-content: center;
+    padding: 150px;
+}
+.awsome > * {
+    flex:1;
+}
+.bimage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:1em;
 }
 
-img {
-    height: 150px;
-    width: auto;
+.image{
+    width:500px;
+    height:auto;
+    padding:1em;
+}
+h1, 
+.sec-txt {
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .random {
     display: flex;
     background-color: rgb(255, 255, 255);
     flex-direction: column;
+    padding-top: 50px;
 }
 h2{
     display: flex;
     justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    margin:0px;
+    padding:25px;
 }
-.box {
-    width:100px;
-    height:100px;
-    border: blue 5px; 
+img{
+    width: 200px;
+    height: auto;
 }
 .boxes{
     display:flex;
-    flex:1;
-    justify-content: center;
-    gap:20px;
-    margin:0px 30px;
+    justify-content:center;
+    gap:50px;
+    padding-bottom: 100px;
 }
-h2 {
-    font-size: 36px;
-    font-weight: bolder;
-    color:#1f2937;
-    
+.box {
+    border:20px blue;
+}
+.set {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
 }
 .quote {
     display: flex;
     background-color: #e5e7eb;
+    padding:50px 100px;
+    flex-direction: column;
 }
+.author,
 .inspire {
+    font-size: 38px;
     font-style: italic;
-    color:#1f2937
-}
-.sign {
-    display: flex;
-    background-color: rgb(255, 255, 255);
+    color:#1f2937;
 }
 
+.author {
+    align-self: flex-end;
+}
+.signs {
+    display: flex;
+    font-size: 18px;
+    padding:50px 150px;
+    margin:100px;
+    background-color: #3882f6;
+    outline: auto;
+    outline-style:round ;
+    justify-content: space-between;
+}
+.call,
+.subcall {
+    color: #F9faf8;
+}
+.call {
+    font-size: 28px;
+}
+button.endbutton , 
+.sign {
+    background-color: #3882f6;
+}
+.sign {
+    flex:1;
+}
 .footer {
     display: flex;
     background-color: #1f2937;
+    padding:30px;
+    justify-content: center;
+    margin-top: auto;
+}
+.copy {
+    font-size: 22px;
+    color: #e5e7eb;
 }
 
-.content {
+.wrap {
     display: flex;
     flex-direction: column;
-    
+    flex-grow: 1;
 }

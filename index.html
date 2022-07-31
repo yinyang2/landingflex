@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing page</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Landingpage</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div class="Header">
@@ -16,27 +16,34 @@
                 <li>header link three</li>
             </ul>
     </div>
-    <div class="content">
+    <div class="wrap">    
         <div class="awsome">
-            <div class="sep.txtimg">
-            <h1>This website is awsome</h1>
-            <p class="sec-txt">This website has some subtext that goes here under the main titile. It's a smaller font and the color is lower contrast</p>
-            <button>Sign up</button>
+            <div class="bimage">
+                <h1>This website is awsome</h1>
+                <p class="sec-txt">This website has some subtext that goes here under the main titile. It's a smaller font and the color is lower contrast</p>
+                <button class="firstbutton">Sign up</button>
             </div>
-            <div class="image"><img src="pic.jpg" alt="an image"></div>
+            <div><img class="image" src="./img/awsome.jpg" alt="an image"></div>
         </div>
         <div class="random">
             <h2>Some random information</h2>
         <div class="boxes">
-            <div class="box">1</div>
-            <div class="box">2</div>
-            <div class="box">3</div>
-            <div class="box">4</div>
-        </div>
-            <div class="text">this is some subtext under an illustration or image</div>
-            <div class="text">this is some subtext under an illustration or image</div>
-            <div class="text">this is some subtext under an illustration or image</div>
-            <div class="text">this is some subtext under an illustration or image</div>
+            <div class="set">
+                <div class="box"><img src="./img/boxes.jpg"></div>
+                <div class="subtext">this is some subtext under an illustration or image</div>
+            </div> 
+            <div class="set">
+                <div class="box"><img src="./img/boxes.jpg"></div>
+                <div class="subtext">this is some subtext under an illustration or image</div>
+            </div> 
+            <div class="set">
+                <div class="box"><img src="./img/boxes.jpg"></div>
+                <div class="subtext">this is some subtext under an illustration or image</div>
+            </div> 
+            <div class="set">
+                <div class="box"><img src="./img/boxes.jpg"></div>
+                <div class="subtext">this is some subtext under an illustration or image</div>
+            </div>    
         </div>
         <div class="quote">
             <div class="inspire">
@@ -44,16 +51,20 @@
                 Maybe it's just filling up space, or maybe people will actually read it. 
                 Who knows? All I know is that it looks nice
             </div>
-            <div>-Undertaker</div>
+            <div class="author">-Undertaker</div>
         </div>
-        <div class="sign">
-            <div>Call to action! It's time!</div>
-            <div>Sign up for our product by clicking that button right over there</div>
-            <button>Sign up</button>
+        <div class="signs">
+            <div class="sign">
+                <div class="call">Call to action! It's time!</div>
+                <div class="subcall">Sign up for our product by clicking that button right over there</div>
+            </div>
+            <button class="endbutton">Sign up</button>
         </div>
     </div>
+
     <div class="footer">
-        Copyright @ The Odin Project 2022
+        <div class="copy">Copyright @ The Odin Project</div> 
     </div>
+</div>
 </body>
 </html>
